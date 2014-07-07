@@ -1,0 +1,6 @@
+[Public]
+Object=(Name=RocketX3E.StrangeMutatorVX,Class=Class,MetaClass=Engine.Mutator,Description="RocketX3E,.")
+;Object=(Name=RocketX3.StrangeArenaVX,Class=Class,MetaClass=Engine.Mutator,Description="RocketX2 Arena,All weapons are replaced by Strangeloves. Yellow Jackets optionally replace Enforcers.")
+;Object=(Name=RocketX2Window.SLOModMenuItemVX,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="Rocket-X")
+;Object=(Name=RocketX3.StrangeShellVXUMenuModMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="==>Rocket-X Settings<==.")
+

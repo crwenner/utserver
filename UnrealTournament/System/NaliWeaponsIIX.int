@@ -1,0 +1,6 @@
+[Public]
+
+Object=(Name=NaliWeaponsIIX.NaliWeaponsIIModMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="Nali Weapons II Settings") 
+Object=(Name=NaliWeaponsIIX.NWMutator,Class=Class,MetaClass=Engine.Mutator,Description="Nali Weapons II")
+Object=(Name=NaliWeaponsIIX.CTFNWMutator,Class=Class,MetaClass=Engine.Mutator,Description="Spawn Random Nali Weapons II (CTF only!)")
+Object=(Name=NaliWeaponsIIX.NaliInstagibDM,Class=Class,MetaClass=Engine.Mutator,Description="Nali Instagib")

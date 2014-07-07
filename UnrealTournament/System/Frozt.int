@@ -1,0 +1,7 @@
+[Public]
+Object=(Name=Frozt.FroztTeamGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Frozt.FroztDomination,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Frozt.FroztBrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
+
+Preferences=(Caption="Frozt - Team Game",Parent="Game Types",Class=Frozt.FroztTeamGame,Immediate=True)
+Preferences=(Caption="Frozt - Domination",Parent="Game Types",Class=Frozt.FroztDomination,Immediate=True)

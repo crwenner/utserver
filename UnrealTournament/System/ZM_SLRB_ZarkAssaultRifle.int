@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=ZM_SLRB_ZarkAssaultRifle.ZM_SLRB_ZarkRifleMutator,Class=Class,MetaClass=Engine.Mutator,Description="ZM SLRB Zark Assault Rifle")
+Object=(Name=ZM_SLRB_ZarkAssaultRifle.ZM_SLRB_AssaultRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="ZM SLRB Zark Assault Rifle")
+

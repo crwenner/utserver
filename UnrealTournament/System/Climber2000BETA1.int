@@ -1,0 +1,7 @@
+[Public]
+Object=(Name=Climber2000BETA1.ClimberArena,Class=Class,MetaClass=Engine.Mutator,Description="ClimberArena, Climber 2000 replaces Translocator")
+Object=(Name=Climber2000BETA1.Climber2000,Class=Class,MetaClass=Engine.Mutator,Description="Climber2000, All Players get a Climber2000 (does not replace Translocator!)")
+Object=(Name=Climber2000BETA1.ClimberMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem)
+Preferences=(Caption="Climber2000",Parent="Advanced Options",Class=Climber2000BETA1.Climber,Immediate=True)
+Object=(Name=Climber2000BETA1.Climber,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Climber 2000")
+

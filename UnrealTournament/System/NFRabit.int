@@ -1,0 +1,3 @@
+[Public]
+Object=(Name=NFRabit.NuclearFlakRabits,Class=Class,MetaClass=Engine.Mutator,Description="Nuclear Flak Rabits, All Flack Cannons shoot rabits that explode with a nuclear fire ball when they die.")
+

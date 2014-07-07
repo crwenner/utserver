@@ -1,0 +1,7 @@
+[Public]
+Object=(Name=Samurai.SamuraiDM,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Samurai.SamuraiAssault,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Samurai.SamuraiTeam,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Samurai.SamuraiCTF,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Samurai.SamuraiDomination,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Samurai.SamuraiLMS,Class=Class,MetaClass=Botpack.TournamentGameInfo)

@@ -1,0 +1,214 @@
+Log: Log file open, 03/27/11 21:52:25
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.1 (Build: 7600)
+Init: Version: 451
+Init: Compiled: Mar 13 2004 09:44:24
+Init: Command line: DM-Deck16][.unr?Game=BotPack.DeathMatchPlus?Mutator=?Listen -lanplay -server log=server.log
+Init: Base directory: C:\Users\ToddDT\Desktop\UT\UT\UnrealTournament\System\
+Init: Character set: Unicode
+Log: Bound to Engine.dll
+Log: Bound to Core.dll
+Log: Bound to Window.dll
+Init: Object subsystem initialized
+Init: Computer: TODDDTPC
+Init: User: ToddDT
+Init: Memory total: Phys=4193464K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: CPU Speed=3200.017798 MHz
+Init: CPU Page size=4096, Processors=2
+Init: CPU Detected: Unknown processor (AuhenicAD)
+Init: CPU Features: CMov FPU RDTSC PAE MMX KNI 3DNow!
+Init: Unreal engine initialized
+Log: Browse: DM-Deck16][.unr?Name=Schinkinator?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo?Game=BotPack.DeathMatchPlus?Mutator=?Listen
+Log: LoadMap: DM-Deck16][.unr?Name=Schinkinator?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo?Game=BotPack.DeathMatchPlus?Mutator=?Listen
+Log: Bound to Fire.dll
+Log: Bound to IpDrv.dll
+Log: Collecting garbage
+Log: Purging garbage
+Log: Garbage: objects: 16779->16779; refs: 235385
+Log: Game class is 'DeathMatchPlus'
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: WinSock: Socket queue 131072 / 131072
+Init: WinSock: I am ToddDT-PC (192.168.1.4)
+DevNet: TcpNetDriver on port 7777
+Log: Server Package: De
+Log: Server Package: CommandoSkins
+Log: Server Package: FCommandoSkins
+Log: Server Package: SGirlSkins
+Log: Server Package: BossSkins
+Log: Server Package: Botpack
+Log: Server Package: SoldierSkins_BlAcK_DeAtH
+Log: Server Package: Climber2000BETA1
+Log: Server Package: Dmn2
+Log: Server Package: Dmn2Skins
+Log: Server Package: Excessive
+Log: Server Package: Qjet
+Log: Server Package: NFRabit
+Log: Server Package: NBot
+Log: Server Package: MultiMesh
+Log: Server Package: Relics
+Log: Server Package: EpicCustomModels
+Log: Server Package: TCowMeshSkins
+Log: Server Package: TNaliMeshSkins
+Log: Server Package: TSkMSkins
+Log: Server Package: SkeletalChars
+Log: Server Package: SLV2
+Log: Server Package: SLV2Models
+Log: Server Package: SLV2Sounds
+Log: Server Package: SLV2Textures
+Log: Server Package: SLV2
+Log: Server Package: SLV2Models
+Log: Server Package: SLV2Sounds
+Log: Server Package: SLV2Textures
+Log: Spawning: IpDrv.UdpBeacon
+Log: Spawning: IpServer.UdpServerQuery
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: UWeb.WebServer
+Log: Bound to UWeb.dll
+Log: Level is Level DM-Deck16][.MyLevel
+Log: Bringing Level DM-Deck16][.MyLevel up for play (35)...
+ScriptLog: InitGame: ?Name=Schinkinator?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo?Game=BotPack.DeathMatchPlus?Mutator=?Listen
+ScriptLog: Base Mutator is DM-Deck16][.DMMutator0
+ScriptLog: UdpServerQuery(crt): Port 7778 successfully bound.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: Webserver is not enabled.  Set bEnabled to True in Advanced Options.
+ScriptLog: Initiating local logging...
+Init: Game engine initialized
+Log: Startup time: 0.833029 seconds
+DevNet: NotifyAcceptingConnection: Server MyLevel accept
+NetComeGo: Open MyLevel 03/27/11 21:52:28 192.168.1.9:60670
+DevNet: NotifyAcceptingChannel Control 0 server Level DM-Deck16][.MyLevel: Accepted
+DevNet: Level server received: HELLO REVISION=0 MINVER=432 VER=451
+DevNet: Level server received: NETSPEED 20000
+Log: Client netspeed is 20000
+DevNet: Level server received: LOGIN RESPONSE=604247480 URL=Index.unr?LAN?Name=FOURBZ?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo
+DevNet: Client passed challenge
+DevNet: Login request: Index.unr?LAN?Name=FOURBZ?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo
+DevNet: Level server received: JOIN
+DevNet: Join request: Index.unr?LAN?Name=FOURBZ?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo
+ScriptLog: Team 1
+ScriptLog: Login: FOURBZ
+Log: Possessed PlayerPawn: TMale2 DM-Deck16][.TMale0
+DevNet: Join succeeded: FOURBZ
+DevNet: NotifyAcceptingConnection: Server MyLevel accept
+NetComeGo: Open MyLevel 03/27/11 21:52:40 192.168.1.4:52285
+DevNet: NotifyAcceptingChannel Control 0 server Level DM-Deck16][.MyLevel: Accepted
+DevNet: Level server received: HELLO REVISION=0 MINVER=432 VER=451
+DevNet: Level server received: NETSPEED 20000
+Log: Client netspeed is 20000
+DevNet: Level server received: LOGIN RESPONSE=617173150 URL=Index.unr?LAN?Name=Schinkinator?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo
+DevNet: Client passed challenge
+DevNet: Login request: Index.unr?LAN?Name=Schinkinator?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo
+DevNet: Level server received: JOIN
+DevNet: Join request: Index.unr?LAN?Name=Schinkinator?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo
+ScriptLog: Team 1
+ScriptLog: Login: Schinkinator
+Log: Possessed PlayerPawn: TMale2 DM-Deck16][.TMale1
+DevNet: Join succeeded: Schinkinator
+DevNet: NotifyAcceptingConnection: Server MyLevel accept
+NetComeGo: Open MyLevel 03/27/11 21:52:49 192.168.1.2:55694
+DevNet: NotifyAcceptingChannel Control 0 server Level DM-Deck16][.MyLevel: Accepted
+DevNet: Level server received: HELLO REVISION=0 MINVER=432 VER=451
+DevNet: Level server received: NETSPEED 20000
+Log: Client netspeed is 20000
+DevNet: Level server received: LOGIN RESPONSE=-1945781001 URL=Index.unr?LAN?Name=Schinkinator?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo
+DevNet: Client passed challenge
+DevNet: Login request: Index.unr?LAN?Name=Schinkinator?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo
+DevNet: NotifyAcceptingConnection: Server MyLevel accept
+NetComeGo: Open MyLevel 03/27/11 21:52:50 192.168.1.2:51787
+DevNet: Level server received: JOIN
+DevNet: Join request: Index.unr?LAN?Name=Schinkinator?Class=BotPack.TMale2?team=1?skin=SoldierSkins.hkil?Face=SoldierSkins.Matrix?Voice=BotPack.VoiceMaleTwo
+ScriptLog: Team 1
+ScriptLog: Login: Schinkinator
+Log: Possessed PlayerPawn: TMale2 DM-Deck16][.TMale2
+DevNet: Join succeeded: Player3
+DevNet: Connection timed out after 150.000000 seconds (150.003311)
+NetComeGo: Close TcpipConnection3 03/27/11 21:55:20
+ScriptLog: Game ended at 610.867126
+ScriptLog: !!!!!!!!!!!!!!! CALC END STATS
+Log: WLog::OnCommand ID_NotifyExit
+Log: appRequestExit(0)
+Exit: Preparing to exit.
+Log: Purging garbage
+Log: Unbound to Engine.dll
+Log: Unbound to Core.dll
+Log: Unbound to Window.dll
+Log: -0.0ms Unloading: Package Engine
+Log: -0.0ms Unloading: Package Core
+Exit: Game engine shut down
+Log: -0.0ms Unloading: Package DM-Deck16][
+Log: -0.0ms Unloading: Package UTtech2
+Log: -0.0ms Unloading: Package Detail
+Log: Unbound to Fire.dll
+Log: -0.0ms Unloading: Package Fire
+Log: -0.0ms Unloading: Package DecayedS
+Log: -0.0ms Unloading: Package Botpack
+Log: -0.0ms Unloading: Package UnrealShare
+Log: -0.0ms Unloading: Package UnrealI
+Log: -0.0ms Unloading: Package Female2Voice
+Log: -0.0ms Unloading: Package Male2Voice
+Log: -0.0ms Unloading: Package Female1Voice
+Log: -0.0ms Unloading: Package BossVoice
+Log: -0.0ms Unloading: Package Male1Voice
+Log: -0.0ms Unloading: Package UMenu
+Log: -0.0ms Unloading: Package UWindow
+Log: -0.0ms Unloading: Package UBrowser
+Log: Unbound to IpDrv.dll
+Log: -0.0ms Unloading: Package IpDrv
+Log: -0.0ms Unloading: Package Announcer
+Log: -0.0ms Unloading: Package GenFX
+Log: -0.0ms Unloading: Package Mine
+Log: -0.0ms Unloading: Package UTtech3
+Log: -0.0ms Unloading: Package Ambancient
+Log: -0.0ms Unloading: Package DoorsMod
+Log: -0.0ms Unloading: Package hubeffects
+Log: -0.0ms Unloading: Package genfluid
+Log: -0.0ms Unloading: Package AmbModern
+Log: -0.0ms Unloading: Package SpaceFX
+Log: -0.0ms Unloading: Package Godown
+NetComeGo: Close TcpipConnection0 03/27/11 22:01:50
+NetComeGo: Close TcpipConnection1 03/27/11 22:01:50
+NetComeGo: Close TcpipConnection2 03/27/11 22:01:50
+Exit: WinSock shut down
+Log: -0.0ms Unloading: Package de
+Log: -0.0ms Unloading: Package CommandoSkins
+Log: -0.0ms Unloading: Package FCommandoSkins
+Log: -0.0ms Unloading: Package SGirlSkins
+Log: -0.0ms Unloading: Package BossSkins
+Log: -0.0ms Unloading: Package SoldierSkins_BlAcK_DeAtH
+Log: -0.0ms Unloading: Package Climber2000BETA1
+Log: -0.0ms Unloading: Package Dmn2
+Log: -0.0ms Unloading: Package SkeletalChars
+Log: -0.0ms Unloading: Package Dmn2Skins
+Log: -0.0ms Unloading: Package Excessive
+Log: -0.0ms Unloading: Package MultiMesh
+Log: -0.0ms Unloading: Package EpicCustomModels
+Log: -0.0ms Unloading: Package IpServer
+Log: -0.0ms Unloading: Package UTBrowser
+Log: -0.0ms Unloading: Package Qjet
+Log: -0.0ms Unloading: Package NFRabit
+Log: -0.0ms Unloading: Package NBot
+Log: -0.0ms Unloading: Package Relics
+Log: -0.0ms Unloading: Package TCowMeshSkins
+Log: -0.0ms Unloading: Package TNaliMeshSkins
+Log: -0.0ms Unloading: Package TSkMSkins
+Log: -0.0ms Unloading: Package SLV2
+Log: -0.0ms Unloading: Package SLV2Sounds
+Log: -0.0ms Unloading: Package SLV2Textures
+Log: -0.0ms Unloading: Package SLV2Models
+Log: Unbound to UWeb.dll
+Log: -0.0ms Unloading: Package UWeb
+Log: -0.0ms Unloading: Package SoldierSkins
+Log: Garbage: objects: 17509->0; refs: 235385
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Uninitialized: Name subsystem shut down
+Uninitialized: Memory Allocation Status
+Uninitialized: Curr Memory  0.034M /  0.934M
+Uninitialized: Peak Memory  15.918M /  17.723M
+Uninitialized: Allocs          46 Current /  1368520 Total
+Uninitialized: Log file closed, 03/27/11 22:01:50

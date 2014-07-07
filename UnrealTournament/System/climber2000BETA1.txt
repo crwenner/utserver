@@ -1,0 +1,69 @@
+---------------------
+ Climber 2000 BETA 1
+---------------------
+
+Climber2000 is a flexible grappling weapon for Unreal Tournament.  
+With user-configurable range, retract speed, and hook range
+it can be tailored to suite the desires of the player or system
+admin.  With the "Drop Flag" option, CTF players can be prevented 
+from grappling away with the flag.  Climber2000 comes with an 
+Arena-style mutator (ClimberArena) that replaces the Translocator 
+with the Climber2000 and an additional mutator (Climber2000) that 
+simply adds a Climber2000 to each player's inventory.
+
+Climber2000 is unique among grapplers in that it does not necessarily
+retract you to a position when the hook makes contact.  When not in an
+attached position, primary fire will launch a regular hook while 
+secondary fire will launch an autoretracting hook.  In addition, if 
+the player moves or falls out of the configured range of an attached
+hook, the Climber2000 will reverse their velocity, effectively 
+tethering the Player to the hook and allowing for "swinging" actions.  
+This does not apply when unlimited range is set.  In order to recall 
+the hook or drop from an attached position, the player must hit 
+secondary fire .  If a player retracts and retrieves the hook, another
+hook can be fired with primary fire and used for a "zipline" effect 
+between positions.  Secondary fire allows the player to drop from an
+attached position.
+
+The gun's Indicator Light shows one of four colors to indicate the
+current status of the Climber2000.  These are:
+
+ Green - Ready State
+Yellow - Hook In Transit
+   Red - Hook Attached, Waiting for Retract
+Purple - Retracting to Hook position
+
+Additionally the Climber2000's hook has a user configurable limited
+lifespan.  Each use of the "tethering" action at the end of the range
+artificially shortens the hook's lifespan.  Hooks are vulnerable
+to attack until retrieved and can be destroyed.  Each hook puts out
+a visibility beacon in the color of the player's team once attached
+to a wall.
+
+Climber2000 has UWindows support and Advanced Options menu support
+included.
+
+Optional Parameters and their defaults:
+
+Put this in your Unrealtournament.ini or primary ini file:
+
+[Climber2000BETA1.Climber]
+HookLife=120		// life of hook/attachment in seconds
+HookSpeed=2000		// Travel speed of the hook
+Range=6000			// range of hook (0 = unlimited)
+SpeedFactor=1.5		// retract speed as a factor of running speed 
+					// (1.0 = 100% running speed)
+bDropFlag=False		// if a player has the flag and tries to grapple 
+					// away they drop the flag
+bIgnoreWaterZones=False		// Water Zones will not affect retracting 
+							   speed (as much)
+
+There is one user-specific setting:
+bNoWalkAttach=False // Player will not attach to ground if running/walking
+
+Enjoy.
+
+- William 'Ntruder' Chenoweth
+  (ntruder@home.com)
+
+Questions/comments/suggestions accepted.

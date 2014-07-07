@@ -1,0 +1,28 @@
+Log: Log file open, 08/05/11 14:30:27
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.1 (Build: 7600)
+Init: Version: 451
+Init: Compiled: Mar 13 2004 09:44:24
+Init: Command line: C:\Users\ToddDT\Desktop\UT\UT\Downloads\Newfolder\NaliWeaponsIIX.u.uz\NaliweaponsIIX.u
+Init: Base directory: C:\Users\ToddDT\Desktop\UT\UT\UnrealTournament\System\
+Init: Character set: Unicode
+Log: Bound to Core.dll
+Init: Object subsystem initialized
+Init: Computer: TODDDTPC
+Init: User: ToddDT
+Init: Memory total: Phys=4193464K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: CPU Speed=3199.952197 MHz
+Init: CPU Page size=4096, Processors=2
+Init: CPU Detected: Unknown processor (AuhenicAD)
+Init: CPU Features: CMov FPU RDTSC PAE MMX KNI 3DNow!
+Log: Bound to IpDrv.dll
+Log: Bound to Engine.dll
+Log: Executing Class IpDrv.DecompressCommandlet
+Critical: appError called:
+Critical: Could not open C:\Users\ToddDT\Desktop\UT\UT\Downloads\Newfolder\NaliWeaponsIIX.u.uz\NaliweaponsIIX.u
+Exit: Executing UObject::StaticShutdownAfterError
+Critical: UDecompressCommandlet::Main
+Exit: Exiting.
+Uninitialized: Name subsystem shut down
+Uninitialized: Log file closed, 08/05/11 14:30:27

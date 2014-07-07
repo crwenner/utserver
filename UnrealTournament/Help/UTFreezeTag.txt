@@ -1,0 +1,32 @@
+=========================================
+Unreal Tournament FreezeTag v1.00
+=========================================
+
+Released March 12, 2000
+
+Description:
+------------
+This is a team based gametype that modifies the way frags are scored. After dealing
+a killing blow to an enemy player, that player will be 'frozen'... In the frozen state,
+the player cannot move or shoot until he is released by a fellow teammate.. Frozen
+teammates are released by touching them. If the entire enemy team is frozen then they will
+spontaneosly shatter (!gib!).. The player killing the last enemy unit will score all those
+kills, and their team score will go up by one.. 
+
+Options:
+--------
+The only configuration option present is the team frag limit, which is configured via
+the regular method.
+
+Network Play:
+-------------
+This gametype should work fine in both single and multiplay.. tested in both..
+
+Acknowledgements:
+-----------------
+I got the idea for this mod from the ModCentral forums.. someone had posted the idea, but
+wasn't going to develop it..
+
+
+Please send any bug reports or comments to
+Jagnon  -- jagnon@yahoo.com

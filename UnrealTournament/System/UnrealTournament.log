@@ -1,0 +1,365 @@
+Log: Log file open, 05/20/14 22:41:29
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.1 (Build: 7601)
+Init: Version: 451
+Init: Compiled: Mar 13 2004 09:44:24
+Init: Command line: 
+Init: Base directory: D:\DocumentsD\Other Doc\games\UnrealTournament\System\
+Init: Character set: Unicode
+Log: Bound to Engine.dll
+Log: Bound to Core.dll
+Log: Bound to Window.dll
+Init: Object subsystem initialized
+Init: Computer: ALBATRONICPC
+Init: User: Albatronic
+Init: Memory total: Phys=4194303K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: CPU Speed=3410.119586 MHz
+Init: CPU Page size=4096, Processors=4
+Init: CPU Detected: PentiumPro-class processor (GeuinIntl)
+Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
+Init: Unreal engine initialized
+Log: Bound to WinDrv.dll
+Init: Mouse info: 0 0 0
+Init: Client initialized
+Log: Bound to Render.dll
+Init: Lighting subsystem initialized
+Init: Rendering initialized
+Log: LoadMap: Entry
+Log: Bound to Fire.dll
+Log: Bound to IpDrv.dll
+Log: Game class is 'UTIntro'
+Log: Level is Level Entry.MyLevel
+Log: Bringing Level Entry.MyLevel up for play (0)...
+ScriptLog: InitGame: 
+ScriptLog: Base Mutator is Entry.Mutator0
+Log: Browse: CityIntro.unr?Name=LORD_ZOLTAN?Class=SkeletalChars.WarBoss?team=1?skin=?Face=?Voice=
+Log: LoadMap: CityIntro.unr?Name=LORD_ZOLTAN?Class=SkeletalChars.WarBoss?team=1?skin=?Face=?Voice=
+Log: Collecting garbage
+Log: Purging garbage
+Log: -0.0ms Unloading: Package Render
+Log: Garbage: objects: 16470->16467; refs: 225453
+Log: Game class is 'UTIntro'
+Log: Level is Level CityIntro.MyLevel
+Log: Bringing Level CityIntro.MyLevel up for play (0)...
+ScriptLog: InitGame: ?Name=LORD_ZOLTAN?Class=SkeletalChars.WarBoss?team=1?skin=?Face=?Voice=
+ScriptLog: Base Mutator is CityIntro.Mutator1
+Init: Initialized moving brush tracker for Level CityIntro.MyLevel
+Log: Bound to UWeb.dll
+ScriptLog: Team 1
+ScriptLog: Login: LORD_ZOLTAN
+Log: Possessed PlayerPawn: WarBoss CityIntro.WarBoss0
+Init: Input system initialized for WindowsViewport0
+Log: Opened viewport
+Log: Bound to D3DDrv.dll
+Init: DirectDraw drivers detected:
+Init:    display (Primary Display Driver)
+Init: D3D Device: Supports system memory DMA blts
+Log: D3D Device 2781466K vram, 2773366K free
+Init: Unreal Tournament Direct3D support - internal revision 1.9b
+Init: D3D Device: szDriver=nvd3dum.dll
+Init: D3D Device: szDescription=NVIDIA GeForce GTX 780 Ti
+Init: D3D Device: wProduct=0
+Init: D3D Device: wVersion=0
+Init: D3D Device: wSubVersion=0
+Init: D3D Device: wBuild=0
+Init: D3D Device: dwVendorId=4318
+Init: D3D Device: dwDeviceId=4106
+Init: D3D Device: dwSubSysId=679688258
+Init: D3D Device: dwRevision=161
+Init: Best-match display mode: 1920x1080x32 (Error=0)
+Init: D3D Device: dwZbuffer depth: 32 bits.
+Init: D3D Driver: wMaxTextureBlendStages=8
+Init: D3D Driver: wMaxSimultaneousTextures=8
+Log: D3D Driver: Supports FOURCC DXT1
+Log: D3D Driver: Supports FOURCC DXT2
+Log: D3D Driver: Supports FOURCC DXT3
+Log: D3D Driver: Supports FOURCC DXT4
+Log: D3D Driver: Supports FOURCC DXT5
+Log: D3D Driver: Supports FOURCC NVCS
+Log: D3D Driver: Supports FOURCC NVHU
+Log: D3D Driver: Supports FOURCC NVHS
+Log: D3D Driver: Supports FOURCC NULL
+Log: D3D Driver: Supports FOURCC ATI1
+Log: D3D Driver: Supports FOURCC ATI2
+Log: D3D Driver: Supports FOURCC INTZ
+Log: D3D Driver: Supports FOURCC 3x11
+Log: D3D Driver: Supports FOURCC 3x16
+Init: D3D Detected: NVidia video card
+Init: D3D Driver: Supports trilinear
+Init: D3D Driver: Supports specular gouraud
+Init: D3D Driver: Supports BLENDDIFFUSEALPHA
+Init: D3D Driver: Supports alpha palettes
+Init: D3D Driver: Supports non-power-of-2 textures
+Init: D3D Driver: Supports LOD biasing
+Init: D3D Driver: Supports Z biasing
+Init: D3D Driver: Supports D3DTOP_ADDSIGNED2X
+Init: D3D Driver: Supports D3DTOP_BUMPENVMAP
+Init: D3D Driver: Supports D3DTOP_BUMPENVMAPLUMINANCE
+Init: D3D Driver: Supports D3DTOP_DOTPRODUCT3
+Init: D3D Driver: Supports D3DTOP_MODULATEALPHA_ADDCOLOR
+Init: D3D Driver: Supports D3DTOP_MODULATECOLOR_ADDALPHA
+Init: D3D Driver: Textures (1x1)-(16384x16384), Max aspect 16384
+Init: D3D Driver: VidMem Disposition: 141 0
+Log: Bound to Galaxy.dll
+Init: Galaxy is using DirectSound
+Init: Galaxy initialized
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Init: Game engine initialized
+Log: Startup time: 2.120984 seconds
+DevMusic: Load music: Music Uttitle.Uttitle
+Log: D3D Driver: Preloaded 0K/191487K (0)
+Log: URL: Adding default option Name=LORD_ZOLTAN
+Log: URL: Adding default option Class=SkeletalChars.WarBoss
+Log: URL: Adding default option team=1
+Log: URL: Adding default option skin=
+Log: URL: Adding default option Face=
+Log: URL: Adding default option Voice=
+Log: Browse: Index.unr?entry?Name=LORD_ZOLTAN?Class=SkeletalChars.WarBoss?team=1?skin=?Face=?Voice=
+Log: Failed; returning to Entry
+Init: Shut down moving brush tracker for Level CityIntro.MyLevel
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: Team 1
+ScriptLog: Login: LORD_ZOLTAN
+Log: Possessed PlayerPawn: WarBoss Entry.WarBoss1
+DevAudio: Galaxy SetViewport: WindowsViewport0
+ScriptLog: Creating root window: UMenu.UMenuRootWindow
+Warning: Failed to load 'Class ParkRifle.ParkRifleMenuItem': Failed to find object 'Class ParkRifle.ParkRifleMenuItem'
+ScriptWarning: UMenuMenuBar Transient.UMenuMenuBar0 (Function UMenu.UMenuMenuBar.LoadMods:0149) Empty class for object None
+ScriptWarning: UMenuMenuBar Transient.UMenuMenuBar0 (Function UMenu.UMenuMenuBar.LoadMods:014F) Accessed None
+ScriptWarning: UMenuMenuBar Transient.UMenuMenuBar0 (Function UMenu.UMenuMenuBar.LoadMods:016D) Accessed None
+ScriptWarning: UMenuMenuBar Transient.UMenuMenuBar0 (Function UMenu.UMenuMenuBar.LoadMods:018A) Accessed None
+DevMusic: Unregister music: Music Uttitle.Uttitle
+DevMusic: Load music: Music utmenu23.utmenu23
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: WinSock: I am Albatronic-PC (192.168.1.102)
+Log: Resolving unreal.epicgames.com...
+Log: Resolved unreal.epicgames.com (199.255.40.174)
+ScriptLog: Ping Timeout from 72.241.104.106.  Attempt 1
+Log: Resolving utmaster.epicgames.com...
+Log: Resolved utmaster.epicgames.com (199.255.40.174)
+ScriptLog: UBrowserGSpyLink: Master Server is utmaster.epicgames.com:28900
+ScriptLog: Ping Timeout from 24.3.187.18.  Attempt 1
+ScriptLog: Ping Timeout from 72.241.104.106 Giving Up
+ScriptLog: Ping Timeout from 24.3.187.18 Giving Up
+ScriptLog: Ping Timeout from 194.141.67.163.  Attempt 1
+ScriptLog: Ping Timeout from 82.96.119.10.  Attempt 1
+ScriptLog: Ping Timeout from 94.23.231.206.  Attempt 1
+ScriptLog: Ping Timeout from 195.42.112.19.  Attempt 1
+ScriptLog: Ping Timeout from 24.229.213.30.  Attempt 1
+ScriptLog: Ping Timeout from 24.229.213.30 Giving Up
+ScriptLog: Ping Timeout from 24.186.47.120.  Attempt 1
+ScriptLog: Ping Timeout from 46.4.92.176.  Attempt 1
+ScriptLog: Ping Timeout from 188.226.157.50.  Attempt 1
+ScriptLog: Ping Timeout from 188.226.157.50 Giving Up
+ScriptLog: Ping Timeout from 24.186.47.120 Giving Up
+ScriptLog: Ping Timeout from 46.4.92.176 Giving Up
+ScriptLog: Ping Timeout from 201.238.222.104.  Attempt 1
+ScriptLog: Ping Timeout from 46.4.92.176.  Attempt 1
+ScriptLog: Ping Timeout from 46.4.92.176.  Attempt 1
+ScriptLog: Ping Timeout from 46.4.92.176.  Attempt 1
+ScriptLog: Ping Timeout from 46.4.92.176.  Attempt 1
+ScriptLog: Ping Timeout from 46.4.92.176 Giving Up
+ScriptLog: Ping Timeout from 46.4.92.176 Giving Up
+ScriptLog: Ping Timeout from 46.4.92.176 Giving Up
+ScriptLog: Ping Timeout from 46.4.92.176 Giving Up
+Warning: Failed to load 'TO-RapidWaters': Can't find file for package 'TO-RapidWaters'
+Warning: Failed to load 'Texture TO-RapidWaters.Screenshot': Can't find file for package 'TO-RapidWaters'
+Warning: Failed to load 'Texture DM-Kitchen.Screenshot': Failed to find object 'Texture DM-Kitchen.Screenshot'
+Log: URL: Adding default option Name=LORD_ZOLTAN
+Log: URL: Adding default option Class=SkeletalChars.WarBoss
+Log: URL: Adding default option team=1
+Log: URL: Adding default option skin=
+Log: URL: Adding default option Face=
+Log: URL: Adding default option Voice=
+Log: Browse: 67.163.185.190/Index.unr?Name=LORD_ZOLTAN?Class=SkeletalChars.WarBoss?team=1?skin=?Face=?Voice=
+Init: WinSock: Socket queue 32768 / 32768
+DevNet: Game client on port 0, rate 10000
+DevNet: PendingLevel received: CHALLENGE VER=451 CHALLENGE=-860768174 STATS=0
+DevNet: PendingLevel received: FAILURE You need to enter a password to join this game.
+DevNet: PendingLevel received: FAILCODE NEEDPW
+Log: Pending connect to '67.163.185.190/Index.unr?Name=LORD_ZOLTAN?Class=SkeletalChars.WarBoss?team=1?skin=?Face=?Voice=' failed; Rejected by server
+NetComeGo: Close TcpipConnection0 05/20/14 22:42:00
+Exit: WinSock shut down
+Log: Browse: 67.163.185.190/Index.unr?Name=LORD_ZOLTAN?Class=SkeletalChars.WarBoss?team=1?skin=?Face=?Voice=?password=cma
+Init: WinSock: Socket queue 32768 / 32768
+DevNet: Game client on port 0, rate 10000
+DevNet: PendingLevel received: CHALLENGE VER=451 CHALLENGE=-76496533 STATS=0
+DevNet: PendingLevel received: USES GUID=3637742811D4155E1C10B5810000C155 PKG=DM-Kitchen FLAGS=1 SIZE=913750 GEN=1 FNAME=DM-Kitchen.unr
+DevNet: PendingLevel received: USES GUID=0AF2D74011D40E7055B0B5810000C154 PKG=Wot FLAGS=1 SIZE=1254882 GEN=1 FNAME=Wot.utx
+DevNet: PendingLevel received: USES GUID=D18A7B9211D38F04100067B9F6F8975A PKG=Engine FLAGS=1 SIZE=1165783 GEN=20 FNAME=Engine.u
+DevNet: PendingLevel received: USES GUID=4770B88411D38E3E100067B9F6F8975A PKG=Core FLAGS=1 SIZE=59791 GEN=12 FNAME=Core.u
+DevNet: PendingLevel received: USES GUID=1C69657611D38F44100067B9F6F8975A PKG=Botpack FLAGS=1 SIZE=39016791 GEN=14 FNAME=Botpack.u
+DevNet: PendingLevel received: USES GUID=4770B88C11D38E3E100067B9F6F8975A PKG=UnrealShare FLAGS=1 SIZE=22124694 GEN=1 FNAME=UnrealShare.u
+DevNet: PendingLevel received: USES GUID=4770B88811D38E3E100067B9F6F8975A PKG=Fire FLAGS=1 SIZE=15248 GEN=10 FNAME=Fire.u
+DevNet: PendingLevel received: USES GUID=4770B88D11D38E3E100067B9F6F8975A PKG=UnrealI FLAGS=1 SIZE=18549361 GEN=1 FNAME=UnrealI.u
+DevNet: PendingLevel received: USES GUID=738B05A111D2E308500071A971E61804 PKG=Indus5 FLAGS=1 SIZE=3210994 GEN=1 FNAME=Indus5.utx
+DevNet: PendingLevel received: USES GUID=1E90ACA811D1ED664544279700005453 PKG=Detail FLAGS=1 SIZE=1729964 GEN=1 FNAME=Detail.utx
+DevNet: PendingLevel received: USES GUID=7944E70211D2D09C9000F1BD583F3D27 PKG=Indus1 FLAGS=1 SIZE=1985856 GEN=1 FNAME=Indus1.utx
+DevNet: PendingLevel received: USES GUID=1E90ACAE11D1ED664544279700005453 PKG=genfluid FLAGS=1 SIZE=5510043 GEN=1 FNAME=genfluid.utx
+DevNet: PendingLevel received: USES GUID=AADA0AC011D31C64E0006BA2D2321081 PKG=eol FLAGS=1 SIZE=3873351 GEN=1 FNAME=eol.utx
+DevNet: PendingLevel received: USES GUID=FD6597E211D38A65E0006BA2D2321081 PKG=UTtech2 FLAGS=1 SIZE=3404233 GEN=1 FNAME=UTtech2.utx
+DevNet: PendingLevel received: USES GUID=A3B94EE511D1ED674544E58A00005453 PKG=AmbOutside FLAGS=1 SIZE=5469933 GEN=1 FNAME=AmbOutside.uax
+DevNet: PendingLevel received: USES GUID=7C59274311D2103E454484AD00005453 PKG=Addon1 FLAGS=1 SIZE=366282 GEN=1 FNAME=Addon1.uax
+DevNet: PendingLevel received: USES GUID=A3B94EE311D1ED674544E58A00005453 PKG=Ambancient FLAGS=1 SIZE=6773021 GEN=1 FNAME=Ambancient.uax
+DevNet: PendingLevel received: USES GUID=A3B94EE411D1ED674544E58A00005453 PKG=AmbModern FLAGS=1 SIZE=6112404 GEN=1 FNAME=AmbModern.uax
+DevNet: PendingLevel received: USES GUID=CBC22FA011D40648A000678B649656CC PKG=de FLAGS=1 SIZE=72405 GEN=1 FNAME=De.u
+DevNet: PendingLevel received: USES GUID=E96BC96311D31D2F4F006B8CDE9A0349 PKG=CommandoSkins FLAGS=1 SIZE=4318050 GEN=1 FNAME=CommandoSkins.utx
+DevNet: PendingLevel received: USES GUID=B7B49CA611D38BCDE0006395BE341081 PKG=FCommandoSkins FLAGS=1 SIZE=5093279 GEN=1 FNAME=FCommandoSkins.utx
+DevNet: PendingLevel received: USES GUID=D4F6ABE111D385CAE0006295BE341081 PKG=SGirlSkins FLAGS=1 SIZE=7226959 GEN=1 FNAME=SGirlSkins.utx
+DevNet: PendingLevel received: USES GUID=24E5A72411D321104F006B8CDE9A0349 PKG=BossSkins FLAGS=1 SIZE=1867811 GEN=1 FNAME=BossSkins.utx
+DevNet: PendingLevel received: USES GUID=0923E84111DC466D4544539800005453 PKG=SoldierSkins_BlAcK_DeAtH FLAGS=1 SIZE=532202 GEN=1 FNAME=SoldierSkins_BlAcK_DeAtH.utx
+DevNet: PendingLevel received: USES GUID=F48A602041E5BF61AA6DB88774244CD0 PKG=Climber2000BETA1 FLAGS=1 SIZE=567388 GEN=1 FNAME=Climber2000BETA1.u
+DevNet: PendingLevel received: USES GUID=6F7442C011D5BEA15452449BCA11F605 PKG=Dmn2 FLAGS=1 SIZE=138064 GEN=1 FNAME=Dmn2.u
+DevNet: PendingLevel received: USES GUID=3A53DA9744D98F9D7353C1B201CA51AB PKG=SkeletalChars FLAGS=1 SIZE=1591818 GEN=1 FNAME=SkeletalChars.u
+DevNet: PendingLevel received: USES GUID=A66D852111D5BDC55452449BCA11F605 PKG=Dmn2Skins FLAGS=1 SIZE=1425880 GEN=1 FNAME=Dmn2Skins.utx
+DevNet: PendingLevel received: USES GUID=8AB574C011D4172A1000BDB5FD4A285A PKG=Excessive FLAGS=1 SIZE=223661 GEN=1 FNAME=Excessive.u
+DevNet: PendingLevel received: USES GUID=2DB53B0011D3E9001000D3B9F6F8975A PKG=MultiMesh FLAGS=1 SIZE=76003 GEN=1 FNAME=MultiMesh.u
+DevNet: PendingLevel received: USES GUID=13F8255A11D3DBA01000CBB9F6F8975A PKG=EpicCustomModels FLAGS=1 SIZE=2337681 GEN=1 FNAME=EpicCustomModels.u
+DevNet: PendingLevel received: USES GUID=5CAFE5094B26666F5833C9A5C8F2C938 PKG=Qjet FLAGS=1 SIZE=111060 GEN=1 FNAME=Qjet.u
+DevNet: PendingLevel received: USES GUID=1183D8404C76F30E8B346EB1AA4933B8 PKG=NFRabit FLAGS=1 SIZE=8839 GEN=1 FNAME=NFRabit.u
+DevNet: PendingLevel received: USES GUID=6EA29FB943E6055EEDF0C98A7497C3F9 PKG=NBot FLAGS=1 SIZE=69645 GEN=1 FNAME=NBot.u
+DevNet: PendingLevel received: USES GUID=D011F66E11D3E9B81000D5B9F6F8975A PKG=Relics FLAGS=1 SIZE=453755 GEN=2 FNAME=Relics.u
+DevNet: PendingLevel received: USES GUID=2F84A16011D3E71FA000518AB12F18D2 PKG=TCowMeshSkins FLAGS=3 SIZE=613832 GEN=1 FNAME=TCowMeshSkins.utx
+DevNet: PendingLevel received: USES GUID=2F84A16111D3E71FA000518AB12F18D2 PKG=TNaliMeshSkins FLAGS=3 SIZE=542925 GEN=1 FNAME=TNaliMeshSkins.utx
+DevNet: PendingLevel received: USES GUID=2F84A16311D3E71FA000518AB12F18D2 PKG=TSkMSkins FLAGS=1 SIZE=4076854 GEN=1 FNAME=TSkMSkins.utx
+DevNet: PendingLevel received: USES GUID=7BC026884E794AE37FAEFCB9C9D6F29E PKG=SLV2 FLAGS=1 SIZE=419937 GEN=1 FNAME=SLV2.u
+DevNet: PendingLevel received: USES GUID=B26AECE34E1BC2AE1E588BAC17047570 PKG=SLV2Sounds FLAGS=1 SIZE=3165498 GEN=1 FNAME=SLV2Sounds.uax
+DevNet: PendingLevel received: USES GUID=C466FEC246F7391B5D889B8F8BCB3AE0 PKG=SLV2Textures FLAGS=1 SIZE=1676382 GEN=1 FNAME=SLV2Textures.utx
+DevNet: PendingLevel received: USES GUID=08EAC8EF43ACCE38BA59928603BD9B37 PKG=SLV2Models FLAGS=1 SIZE=2036949 GEN=1 FNAME=SLV2Models.u
+DevNet: PendingLevel received: DLMGR CLASS=Engine.ChannelDownload PARAMS=Enabled COMPRESSION=0
+DevNet: PendingLevel received: WELCOME LEVEL=DM-Kitchen LONE=0
+DevNet: Welcomed by server: LEVEL=DM-Kitchen LONE=0
+Log: LoadMap: 67.163.185.190/DM-Kitchen?Name=LORD_ZOLTAN?Class=SkeletalChars.WarBoss?team=1?skin=?Face=?Voice=?password=cma
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Log: Collecting garbage
+Log: Purging garbage
+Log: -0.0ms Unloading: Package CityIntro
+Log: -0.0ms Unloading: Package city
+Log: -0.0ms Unloading: Package ArenaTex
+Log: -0.0ms Unloading: Package GenFX
+Log: -0.0ms Unloading: Package NaliCast
+Log: -0.0ms Unloading: Package RainFX
+Log: -0.0ms Unloading: Package DecayedS
+Log: -0.0ms Unloading: Package GenIn
+Log: -0.0ms Unloading: Package NaliFX
+Log: -0.0ms Unloading: Package ShaneSky
+Log: -0.0ms Unloading: Package openingwave
+Log: -0.0ms Unloading: Package Uttitle
+Log: -0.0ms Unloading: Package ParkRifle
+Log: Garbage: objects: 25968->23881; refs: 312476
+Log: Level is Level DM-Kitchen.MyLevel
+Log: Bringing Level DM-Kitchen.MyLevel up for play (156)...
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: Team 1
+ScriptLog: Login: LORD_ZOLTAN
+ScriptLog: Password cma
+Log: Possessed PlayerPawn: WarBoss Entry.WarBoss2
+Init: Initialized moving brush tracker for Level DM-Kitchen.MyLevel
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Log: D3D Driver: Preloaded 0K/192867K (0)
+ScriptLog: Getting None, None, None, None
+ScriptLog: Getting CommandoSkins.cmdo1, CommandoSkins.cmdo2Blake, CommandoSkins.cmdo3t_0, CommandoSkins.cmdo4t_0
+Log: Possessed PlayerPawn: WarBoss DM-Kitchen.WarBoss3
+DevMusic: Unregister music: Music utmenu23.utmenu23
+DevMusic: Load music: Music utmenu23.utmenu23
+Log: appRequestExit(0)
+Exit: Preparing to exit.
+Log: Purging garbage
+Log: Unbound to Engine.dll
+Log: Unbound to Core.dll
+Log: Unbound to Window.dll
+Log: -0.0ms Unloading: Package Engine
+Log: -0.0ms Unloading: Package Core
+Exit: Game engine shut down
+Log: Unbound to WinDrv.dll
+Exit: Windows client shut down
+Log: Unbound to Render.dll
+Exit: Lighting subsystem shut down
+Exit: Rendering shut down
+Log: -0.0ms Unloading: Package Entry
+Log: -0.0ms Unloading: Package Logo
+Log: Unbound to Fire.dll
+Log: -0.0ms Unloading: Package Fire
+Log: -0.0ms Unloading: Package credits
+Log: -0.0ms Unloading: Package Botpack
+Log: -0.0ms Unloading: Package UnrealShare
+Log: -0.0ms Unloading: Package UnrealI
+Log: -0.0ms Unloading: Package Female2Voice
+Log: -0.0ms Unloading: Package Male2Voice
+Log: -0.0ms Unloading: Package Female1Voice
+Log: -0.0ms Unloading: Package BossVoice
+Log: -0.0ms Unloading: Package Male1Voice
+Log: -0.0ms Unloading: Package UMenu
+Log: -0.0ms Unloading: Package UWindow
+Log: -0.0ms Unloading: Package UBrowser
+Log: Unbound to IpDrv.dll
+Log: -0.0ms Unloading: Package IpDrv
+Log: -0.0ms Unloading: Package Announcer
+Log: -0.0ms Unloading: Package Detail
+Log: -0.0ms Unloading: Package genfluid
+Log: -0.0ms Unloading: Package AmbModern
+Log: -0.0ms Unloading: Package AmbAncient
+Log: -0.0ms Unloading: Package AmbOutside
+NetComeGo: Close TcpipConnection1 05/20/14 22:44:47
+Log: -0.0ms Unloading: Package UTMenu
+Log: -0.0ms Unloading: Package LadderSounds
+Log: Unbound to UWeb.dll
+Log: -0.0ms Unloading: Package UWeb
+Log: -0.0ms Unloading: Package UTServerAdmin
+Log: -0.0ms Unloading: Package IpServer
+Log: -0.0ms Unloading: Package LadrArrow
+Log: -0.0ms Unloading: Package SkeletalChars
+Log: Unbound to D3DDrv.dll
+Log: Unbound to Galaxy.dll
+DevAudio: Galaxy SetViewport: NULL
+DevMusic: Unregister music: Music utmenu23.utmenu23
+Exit: Galaxy shut down
+Log: -0.0ms Unloading: Package LadderFonts
+Log: -0.0ms Unloading: Package UWindowFonts
+Log: -0.0ms Unloading: Package Climber2000BETA1
+Log: -0.0ms Unloading: Package RelicsBindings
+Log: -0.0ms Unloading: Package Excessive
+Log: -0.0ms Unloading: Package MultiMesh
+Log: -0.0ms Unloading: Package EpicCustomModels
+Log: -0.0ms Unloading: Package UTBrowser
+Log: -0.0ms Unloading: Package utmenu23
+Log: -0.0ms Unloading: Package Frozt
+Log: -0.0ms Unloading: Package MonsterHunt
+Log: -0.0ms Unloading: Package Wot
+Log: -0.0ms Unloading: Package DM-Kitchen
+Log: -0.0ms Unloading: Package Indus1
+Log: -0.0ms Unloading: Package Indus5
+Log: -0.0ms Unloading: Package eol
+Log: -0.0ms Unloading: Package Addon1
+Log: -0.0ms Unloading: Package UTtech2
+Exit: WinSock shut down
+Log: -0.0ms Unloading: Package de
+Log: -0.0ms Unloading: Package CommandoSkins
+Log: -0.0ms Unloading: Package FCommandoSkins
+Log: -0.0ms Unloading: Package SGirlSkins
+Log: -0.0ms Unloading: Package BossSkins
+Log: -0.0ms Unloading: Package SoldierSkins_BlAcK_DeAtH
+Log: -0.0ms Unloading: Package Dmn2
+Log: -0.0ms Unloading: Package Dmn2Skins
+Log: -0.0ms Unloading: Package Qjet
+Log: -0.0ms Unloading: Package NFRabit
+Log: -0.0ms Unloading: Package NBot
+Log: -0.0ms Unloading: Package Relics
+Log: -0.0ms Unloading: Package TCowMeshSkins
+Log: -0.0ms Unloading: Package TNaliMeshSkins
+Log: -0.0ms Unloading: Package TSkMSkins
+Log: -0.0ms Unloading: Package SLV2
+Log: -0.0ms Unloading: Package SLV2Sounds
+Log: -0.0ms Unloading: Package SLV2Textures
+Log: -0.0ms Unloading: Package SLV2Models
+Init: Shut down moving brush tracker for Level DM-Kitchen.MyLevel
+Log: Garbage: objects: 24884->0; refs: 312476
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Uninitialized: Name subsystem shut down
+Uninitialized: Memory Allocation Status
+Uninitialized: Curr Memory  1.545M /  0.934M
+Uninitialized: Peak Memory  61.889M /  62.742M
+Uninitialized: Allocs          73 Current /  5907253 Total
+Uninitialized: Log file closed, 05/20/14 22:44:48

@@ -1,0 +1,87 @@
+<html>
+<head>
+<title></title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body text="#333333" link="#cc0000" alink="#ff0000" vlink="#660000" background="images/bgvac.jpg" bgcolor="#ffffff" class="medium">
+<a href="http://www.planetunreal.com/0fus/"><img src="images/logo.gif" border="0"></a> 
+<p><b><font class="title" color="#990000">SLV2 Readme</font></b></p>
+<p>8/23/2001<br> <a href="http://www.planetunreal.com/0fus/">http://www.planetunreal.com/0fus/</a><br> <a href="yrns@planetunreal.com">yrns@planetunreal.com</a></p>
+  
+<p>Welcome to <b>Strangelove V2</b>.</p>
+
+<p>Full instructions are available in the Options console, under the "manual" tab. The manual can also be found online at <a href="http://www.planetunreal.com/0fus/slv2/manual.html">http://www.planetunreal.com/0fus/slv2/manual.html</a> and in your Unreal Tournament Help directory.</p>
+  
+ <p><b><font class="title" color="#990000">Quick Overview</font></b></p>
+  
+<p>Start a game using one of the two Strangelove mutators. Once you are armed with a Strangelove launcher, use alt-fire to launch and ride the rocket. </p>
+
+<p><b><font class="title" color="#990000">Keys</font></b></p>
+<p><b>forward/back</b>: <font color=#990000>throttle up/down</font><br> <b>jump</b> or <b>alt-fire</b>: <font color=#990000>eject</font><br> <b>fire</b>: <font color=#990000>toggle afterburners</font><br> <b>duck</b>: <font color=#990000>toggle "shoot mode"</font><br> <b>next/prev. weapon</b>: <font color=#990000>warhead status</font></p>
+  
+<p>If you run your rocket into a teammate, they will ride shotgun on the back of your rocket, becoming your gunner.</p>
+
+<p>While riding, toggling to "shoot mode" will allow you to aim and fire your regular weapons. You must switch back to "pilot mode" to control the rocket.</p>
+
+ <p>Your rocket can run out of fuel, so be sure to pick up any hovering fuel cores you see lying around. Your afterburner eats fuel quickly, but will give you a massive speed boost.</p>
+  
+<p><b><font class="title" color="#990000">Installation Notes</font></b></p>
+<p>Strangelove V2 requires <a href="http://www.fileplanet.com/index.asp?section=599&file=38078">Bonus Pack 1</a>,  <a href="http://www.fileplanet.com/index.asp?section=670&file=53827">Bonus Pack 4</a>, and a version of UT patched to 436 (<a href="http://www.fileplanet.com/index.asp?section=599&file=51913">Windows</a>/<a href="http://www.fileplanet.com/index.asp?section=599&file=51956">Mac</a>/<a href="http://www.lokigames.com/products/ut/updates.php3">Linux</a>).</p>
+
+<!--<p><b>WINDOWS INSTALL</b></p>
+<p>The installer for this product was created using Installer VISE from MindVision Software. For more information on Installer VISE, contact: </p>
+
+<p>MindVision Software<br>
+5901 North 58th Street<br>
+Lincoln, NE 68507</p>
+
+<p>Voice: (402) 323-6600<br>
+Fax: (402) 323-6611<br>
+E-mail: mindvision@mindvision.com<br>
+http://www.mindvision.com</p>-->
+
+<p><b>MINIMAL UMOD INSTALL</b></p>
+<p>The minimal UMOD install is for Mac and Linux users. It does not include the credits movie or support code, some of which is native to Windows. Double-click and go. If you're reading this you're well on your way.</p>
+
+<p><b>FULL UMOD INSTALL</b></p>
+<p>The full UMOD install includes the credits movie and related files, and an RTMS 1.1 UMOD installer (necessary to play the credits movie).<p>
+
+<p><b>ZIP INSTALL</b></p>
+<p>If you have not already done so, unzip the archive into your UnrealTournament directory (typically c:\UnrealTournament for Windows users).</p>
+
+<p>If you are using your installation to start a multiplayer server and you're doing the zip install, you need to enter your ServerPackages manually. Do this by opening up System/UnrealTournament.ini and look for the GameEngine section. Add the following lines:</p>
+<p>ServerPackages=SLV2<br>
+ServerPackages=SLV2Models<br>
+ServerPackages=SLV2Sounds<br>
+ServerPackages=SLV2Textures</p>
+  
+<p><b><font class="title" color="#990000">Known Issues</font></b></p>
+<p>* In certain games, UT may reduce the level of detail (LOD) of the default player models under high load, even if they're close by. The engine wasn't meant to be a flight simulator, and I think this has something to do with it. This will be fixed when we start using our own player models.</p>
+  
+<p>* Using the jump key for ejecting in standalone games is a little sticky. It sticks for 1 tick (which is barely noticeable).</p>
+  
+<p>* Because of the very general cylindrical collision hulls, I had to reduce the collision radius on the rocket quite a bit when in "shoot mode". This makes it harder to shoot yourself in the foot, or blow up the rocket from under you. It also makes your rocket harder for your opponents to hit -- although the argument could be made that it makes *you* easier to hit. In V3 this will be fixed with tighter collision handling code.</p>
+  
+<p>* The Strangelove death messages don't show up red in CTF games. That's because they use UT's "special" death message functionality which doesn't work (at least as far as them showing up red) in team games. We'll have to live with it.</p>
+  
+<p>* When you run out of fuel you are forced to eject. This is for simplicity's sake. It saves me from computing impact damage myself and lets the engine handle it. I would have been less likely to opt for this solution if picking up fuel cores after your fuel's run out worked. It doesn't, however, and it makes the forced eject issue somewhat moot.</p>
+  
+<p>* Zone velocity does not have an effect on Strangeloves, but friction does.</p>
+
+<p>* Warp zones that don't have the same orientation will throw off Strangeloves flying between them. They'll suddenly rotate and then correct themselves.</p>
+  
+  
+<p>* Demo recordings of Strangelove games don't replay accurately.</p>
+<p><b><font class="title" color="#990000">Version History</font></b></p>
+<p><b>2.0.0</b> - Initial release.</p>
+<p>Check <a href=http://www.planetunreal.com/0FUS>0FUS website</a> for Strangelove related news, forums, and support. This information and the manual are updated automatically when online. This info was last updated on: 
+
+  <!-- #BeginDate format:Am1a -->August 28, 2001 3:30 AM<!-- #EndDate -->
+  </p>
+
+<p>The most recent release is <b>2.00</b>. <!-- buildinfo -->
+</p>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=Qjet.QuantumJets,Class=Class,MetaClass=Engine.Mutator,Description="Quantum Jet Fighter V1, All Sepcified weapons are replaced by Quantum Jet Fighters.  The Default weapon to be replaced is the redeemer.")
+
+Object=(Name=Qjet.qjetmmi,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="Quantum &Fighter Jets,Specify which weapons to replace with fighter jets")

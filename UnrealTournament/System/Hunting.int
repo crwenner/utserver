@@ -1,0 +1,5 @@
+[Public]
+Object=(Name=Hunting.Hunting,Class=Class,MetaClass=Engine.Mutator,Description="Hunting")
+
+Preferences=(Caption="Mutators",Parent="Advanced Options")
+Preferences=(Caption="Hunting",Parent="Mutators",Class=Hunting.Hunting,Immediate=True)

@@ -1,0 +1,86 @@
+======================================
+Unreal Tournament Monster Hunt README
+(c) 1999, 2000 Epic Games
+(c) 2002 Shrimp Works
+======================================
+
+Thanks for acquiring the Monster Hunt game type for Unreal Tournament.
+
+This mod was created by a guy that goes by the name of Shrimp back in 2001, in 2002 the final patch version 503 was released.
+
+This pack should be used with Unreal Tournament version 436 or higher.
+
+If you find any bugs, please post them as well as your UnrealTournament.log file (from your UT/system directory) and system details on:
+
+	www.planetmonsterhunt.com
+
+It is illegal to charge users for this content.
+
+
+########
+NEW MAPS
+########
+
+------------------------
+Monster Hunt Arena Maps |
+------------------------
+MA-Queens
+MA-Revenge
+MA-RocketArena
+MA-Winged
+
+------------------
+Monster Hunt Maps |
+------------------
+MH-Canyon
+MH-Forbidden
+MH-Lonely][
+MH-NaliVillage][
+MH-Revenge][
+MH-Trials
+
+
+
+##########
+GAME MODES
+##########
+
+
+Monster Hunt Arena
+--------------------
+Much like a traditional DeathMatch, but you're not playing against other players, you and your team are battling it out to the death against giant bloodthirsty monsters.
+
+Players all start in an area protected from the monsters. Here, they have a chance to grab the weapons they'll be needing in the battle to come - there are no other weapons other than those provided at the start, you will however, be able to find ammo in the arena itself. Once the monster(s) are killed, you will automatically be taken to the next arena.
+
+
+Monster Hunt
+--------------------
+Teamplay has a strong role in successfully completing a hunt, if players don't work as a team to accomplish objectives, they'll no doubt all end up dead pretty soon, those monsters don't fool around! Sharing pickups also becomes important, if one player grabs everything, the rest are left with nothing and will end up dead.
+
+Because of the nature of MH, players may be faced with the occasional puzzle to solve but they won't be as in-depth as a single player game might have - the emphasis is on action, not brainstorming.
+
+The Translocator has been disabled in MH games, as it could spoil certain scenarios. The Chainsaw replaces the Impact Hammer as the default weapon for all that hack and slash goodness it provides :-)
+
+
+#######
+INSTALL
+#######
+If you downloaded the UMOD file, then it should already be installed. Just start your game and select it in the drop down menu; Altertivly you can join internet games, just select the Monster Hunt or Monster Arena tabs to find public servers.
+
+If you downloaded the zip file, then you need.
+
+Put all files in the correct directory as listed below
+------------------------------------------------------
+../*.utx......C:/UnrealTournament/Textures
+../*.unr......C:/UnrealTournament/Maps
+../*.umx......C:/UnrealTournament/Music
+../*.txt......C:/UnrealTournament/Help
+../*.ini......C:/UnrealTournament/System
+../*.int......C:/UnrealTournament/System
+../*.u........C:/UnrealTournament/System
+
+-------------------------------------------------------------------------------------------------------------
+Downloaded from www.planetmonsterhunt.com
+
+
+

@@ -1,0 +1,5 @@
+[Public]
+Object=(Name=ParkRifle.ParkRifleMutator,Class=Class,MetaClass=Engine.Mutator,Description="ParkRifle, A Rapid Fire Sniper Rifle By Zark, modified for GazeboPark by T-Bonez")
+Object=(Name=ParkRifle.ParkRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Assault Rifle")
+Object=(Name=ParkRifle.ParkRifle_HUDMutator,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="HUD Mute")
+Object=(Name=ParkRifle.ParkRifleMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem)

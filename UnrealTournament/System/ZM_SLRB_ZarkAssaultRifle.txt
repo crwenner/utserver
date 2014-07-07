@@ -1,0 +1,66 @@
+----------------------------------------------------------------------------------------
+The ZM_SLRB_ZarkAssaultRifle by |ZM|Snake - TEAMZM (Zark Mercenaries) - Aug 11/2002
+
+Original Zark Assault Rifle concept and implementation : Chris 'Zark' Houghton
+---------------------------------------------------------------------------------------- 
+My thanks to Chris 'Zark' Houghton for making the Zark assault rifle, 
+and to |ZM|FORMAT_C: for saying "Hey Snake, can you give the Zark more range?"
+----------------------------------------------------------------------------------------
+
+ Welcome to the ZM SLRB Zark Assault Rifle.   CAUTION!! SAFETY IS ONLY AN ILLUSION.
+----------------------------------------------------------------------------------------
+ 
+ The ZM SLRB Zark Assault Rifle is an extension of the Zark weapon while maintaining
+ the original concept of the Zark design. The SLRB characteristics are:
+ 
+      - a full implementation of the original Zark Assault Rifle.
+      - added Super Long Range Ballistic capability
+      - a new scope reticle overlay
+  
+ The range of the SLRB ????? If you can see it, you can hit it.
+
+ The new reticle overlay design will aid in tracking and targeting at extreme distances.
+ Close attention was given to the new design to improve the targeting of objects in all
+ ranges. A side effect of the design is that you will now be able to maintain a wider
+ field of view during target aquisition in the medium to far ranges. 
+
+----------------------------------------------------------------------------------------
+
+INSTALL PROCEDURE
+
+
+SERVER:  (1) Put the ZM_SLRB_ZarkAssaultRifle.u and ZM_SLRB_ZarkAssaultRifle.int files into 
+             the Unreal Tournament system folder.
+
+         (2) Add the line 'ServerPackages=ZM_SLRB_ZarkAssaultRifle' into the
+             UnrealTournament.ini file after the other ServerPackages. 
+
+         (3) Select 'ZM SLRB Zark Assault Rifle' from the Unreal Tournament mutator list 
+             to activate the SLRB.
+	
+         NOTE(a): This is a direct replacement for the Zark assault rifle, so                                 remove 'Assault Rifle' from the active mutators if present.
+
+         NOTE(b): As with the standard Zark, if you are using the mutator for 
+                  volatile ammo, place the ZM SLRB mutator before it. Bullet ammo 
+                  packs replacing shock ammo packs will not work properly on map
+                  starts if this is not done.
+
+	 NOTE(c): For server starts using a UCC batch, add the following mutator class                        reference. ZM_SLRB_ZarkAssaultRifle.ZM_SLRB_ZarkRifleMutator
+
+         NOTE(d): When picking up an SLRB you will now see the message:
+                  You picked up an SLRB Zark Assault Rifle.
+
+SINGLE PLAYER: (skip step 2 from above)	 
+
+----------------------------------------------------------------------------------------
+ CONTACT: zarkmercs@yahoo.ca
+
+ WEBSITE : http://www.zarkmercs.com
+----------------------------------------------------------------------------------------
+ TEAMZM: |ZM|AWOL               |ZM|FORMAT_C:          |ZM|_SGT_GRIT 
+         |ZM|Blade              |ZM|Guss101            |ZM|SHADOW
+         |ZM|_BleedngRctlitch   |ZM|killer_pun         |ZM|Snake
+         |ZM|Carnifex           |ZM|Mike               |ZM|Spetznatz1 
+         |ZM|EL_ASSO_WIPE_O     |ZM|pkford  
+         |ZM|fArT               |ZM|MrJester        
+----------------------------------------------------------------------------------------

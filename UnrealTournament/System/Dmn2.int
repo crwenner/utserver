@@ -1,0 +1,5 @@
+[Public]
+Object=(Name=Dmn2.Dmn2Bot,Class=Class,MetaClass=BotPack.Bot,Description="Demon ][")
+Object=(Name=Dmn2.Dmn2,Class=Class,MetaClass=BotPack.TournamentPlayer,Description="Demon ][")
+Object=(Name=Dmn2Skins,Class=Texture,Description="Demon ][")
+

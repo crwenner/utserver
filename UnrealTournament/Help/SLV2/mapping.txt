@@ -1,0 +1,254 @@
+
+STRANGELOVE MAPPING DOCUMENT
+7/9/2001
+yrns@0fus.com
+
+With Strangelove, we are supporting two styles of gameplay. The first
+is what CTF and Assault are: Team games where there are one or more
+positional goals. Then there's racing, where you want a fairly static
+route through a map that repeats (laps). We cover both types of games
+with the same system. We'll call this system SkyNet, which corresponds
+to an actual UnrealScript object. When the level is brought up,
+however, this system may not be in place already. This is where we
+deal with issues of backwards compatibility.
+
+There are three scenarios. The map has no SL (Strangelove) support,
+partial SL support, or full SL support. The first two don't require
+Strangelove to be installed and can therefore be played as regular
+(CTF, Assault, etc.) maps. Racing maps are required to have full
+support (they will have their own map prefix, probably SR), and
+therefore need Strangelove installed. Racing maps will be covered
+separately at the end as they build on the system for other
+gametypes. We may introduce an Assault or CTF variant with its own map
+prefix, but I would tend not to do that unless it was necessary.
+
+
+NO SUPPORT (TYPE 1)
+
+So to start, let's describe what happens when we load up a map with no
+SkyNet (no Strangelove support). Note that if no bots are spawned, or,
+for whatever reason, they never equip a Strangelove, the SkyNet will
+not be spawned. Once the SkyNet is spawned, it will build itself out
+of the existing path node network, in the following steps:
+
+1. It will spawn a sky node for each navigation point (this includes
+inventory spots, etc.) a specified amount off the ground. If there's a
+roof it will find a median spot between the roof and the floor.
+
+2. Then it will weld together close nodes and otherwise eliminate ones
+that are no good.
+
+3. Then it weights each node. It applies a weight for each goal on the
+map. Currently it does this by distance, which is not good, but better
+methods take too long to calculate.
+
+4. Then the SkyNet is marked as being built. Once this happens, bots
+will use the alt-fire on their Strangeloves.
+
+Typically this process takes 20-30 seconds. It takes the bots another
+2-3 minutes to figure out how to use the network (mostly via trial and
+error, unfortunately), so this 20 second wait is not so bad in
+comparison.
+
+In step 3 the nodes are weighted for each goal. The goal is either a
+flag base or flag (in CTF), or a fort standard (in Assault). There are
+"goal nodes" assigned which are the closest sky nodes to each
+goal. The bots, in general, spend their time on the map trying to get
+from wherever they spawn to their goal node. On an open map, it's
+possible for a bot to get from one side of the map to the other via
+sky nodes. In fact, if the map is easily navigatable
+(e.g. CTF-CivilWar) they will fly exactly where they want to go and
+skip all the sky nodes. Irregularities (walls, sharp turns, small
+tunnels) in the flight path will slowly make the bots realize that
+they can't fly the whole way, so they'll attempt to eject at nodes
+which they've died a lot on. They will attempt a node at least twice,
+however, so you can see it's a slow process if there's a lot of dead
+end nodes on the map. There is also a random factor which will promote
+them taking alternate routes.
+
+
+PARTIAL SUPPORT (TYPE 2)
+
+Here is type two, partial support. It's the same as above except you
+manually place path nodes which are unreachable via walking bots. The
+SkyNet, once spawned, will only use those path node points to spawn
+sky nodes at. It won't average their vertical position, either. To
+make sure these path nodes aren't used by walking bots, set
+bPlayersOnly to true in UnrealEd and make ExtraCost = 255. Then, enter
+"SKYNODE" as the tag.
+
+This cuts down on the some of the work the SkyNet would have to do in
+finding its own sky nodes, and therefore decreases build time. It also
+gives you a lot more control over the SkyNet than the auto-build
+method. Another payoff here is that players don't have to have
+Strangelove installed to play your map.
+
+Note if you don't use the SKYNODE tag it will just add those nodes to
+the SkyNet as normal, which can be useful if you like the auto-built
+network (unlikely, but possible).
+
+
+FULL SUPPORT (TYPE 3)
+
+Full support entails placing SkyNodes rather than placeholder path
+nodes. This enables you to change their individual settings. It also
+entails manually placing a SkyNet object somewhere on the map. If the
+SkyNet detects any sky nodes it won't do the auto-build procedure from
+above.
+
+You have two options as far as weighting the nodes.
+
+1. Let the SkyNet do it automatically based on distance.
+
+2. Do it by hand. Set bNoAutoWeightNodes to true. On each node you
+must set its weight for each goal. The goal is a int value which
+depends on gametype. For CTF it is the team. So if you are looking for
+the enemy flag base the goal is the enemy team value. If you are
+returning with your own flag your goal is your own team index. In
+default CTF, red is 0 and blue is 1. For Assault, the goal index is
+the fort standard index.
+
+A node weight is a float value from 0.0 to 1.0, 1.0 being the weight
+of the goal node. 0.0 means this node is the farthest possible from
+the goal node. If you are weighting the nodes by hand you can use any
+value scheme you want. You can make the goal nodes 255.0 and really
+far nodes -666.0. It doesn't matter.
+
+An easier way to handle custom weights is to let the SkyNet weight the
+nodes based on distance and then apply modifiers to nodes that are
+problematic. For example, if a map has a required route to the flag
+but it is not necessarily the shortest route (point A to B). They will
+never take it. They'll eject before embarking on such a roundabout
+trip. You can apply modifiers by setting small values in adjustWeight
+for each goal. At runtime the bots will add this value to the normal
+weight. You will have to eyeball this value in UnrealEd. Or play it in
+game with the bot debugging turned on (see the "debugging"
+section). In the future I will add a control to UnrealEd that will
+weight the nodes ahead of time so you can just adjust that.
+
+
+OTHER SKYNODE PROPERTIES
+
+"randomLinkAdjust" is a random value (0 to the specified value) that
+gets added at runtime to all the links from a node when deciding which
+node to take next. There is a default randomLinkAdjust in the SkyNet
+which you can change. If there is no adjustment on the node it will
+use that instead. If this value is 0 the bots will always take the
+next node with the highest weight. At nodes which act as hubs or
+branching spots you'll want to increase this value depending on the
+weight difference of the two (or more) nodes you're branching to.
+
+"suggestedSpeed" is a recommendation to the bots to speed up or slow
+down to the speed you specify. If your value is less than 1.0 it's a
+throttle setting. Meaning, if it's 1.0 they'll set their throttle to
+1.0 (maximum speed) or if it's 0.0 they'll set it to 0.0 (minimum
+speed). The throttle setting is more useful for extreme situations
+like ejecting nodes (nodes they'll eject on) or open
+straightaways. For curves that you want them to maintain a specific
+speed on it's better to use the raw speed setting. Currently the
+minimum speed for Strangeloves is 600 (but can be less in certain
+situations), and the maximum is 1100, but can be more with
+afterburners (which the bots currently don't use). The bot will adjust
+their throttle once they set this node as their target. Note the
+default is -1.0, which means the bots determine their own speed. For
+CTF games it may be best to leave the default suggestedSpeed for most
+nodes and only alter the curve nodes, whereas in racing, you probably
+want to custom set all the nodes. In CTF, the bots, depending on skill
+level, accelerate through straightaways.
+
+"bOffensiveNode" is a boolean (true or false) value. Normally bots
+won't ever eject. They are on a mission to get to the goal node. But,
+under certain circumstances it's advantageous for them to eject,
+sending their warhead into a group of enemies. Once they reach an
+offensive node they will look for these conditions until they reach
+another node which has bOffensiveNode set to false. If the bot doesn't
+have another Strangelove to launch they're less likely to opt for this
+offensive move. This setting isn't used in racing. NOT IMPLEMENTED
+YET.
+
+"bGateNode" is a boolean value. It's only used in racing. See "RACING
+NOTES" below.
+
+"bFinalNode" is a boolean value. It's only used in racing. See "RACING
+NOTES" below.
+
+"linkRadius" is the radius in which a node will look for nodes to link
+to. There is a hardcoded, maximum number of links which is currently
+set to 5. If this is 0, the default, it will use the SkyNet's
+linkRadius, which is currently set to 1200.
+
+
+SKYNET PROPERTIES
+
+"linkRadius" overrides the sky node linkRadius. See above.
+
+"randomLinkAdjust" overrides the sky node randomLinkAdjust. See above.
+
+"laps" is an int property. It sets the number of laps needed on the
+course. 3 is the default.
+
+
+RACING NOTES
+
+Racing works essentially as described as above, with a few exceptions:
+
+There is no way to weight the nodes based on distance. There is only
+one goal (0 by default) which is used, and it's arbitrary. You have to
+hand weight them. There is some amount of flexibilty. You could weight
+each one in increments of 1.0, and if you have to insert a node later,
+make it 1.5, 2.5, etc.
+
+In racing the sky nodes are not only for bots - they demark the course
+for human players as well. Sky nodes who have bGate set to true must
+be touched by the human players and bots. If you skip a gate node you
+can't finish. Set the gate node's collision radius and height to fit
+the level architecture. If you have a small tunnel opening, the node
+should be wide enough to fill the opening. If you have a large canyon
+you can make the node fit the entire canyon opening. Just don't make
+the sky node so big that it overlaps other sky nodes. That would be
+bad. The gate nodes are used to measure the amount of the course that
+has been covered so it's best to evenly disperse them throughout the
+map. Also, if you have an S-curve section, rather than put one gate
+node at each end, it's best to put one at the height of each
+curve. They should really fit the design of the map. As an example,
+you could have a large section with a few twisty tunnels, all leading
+from point A to point B. With only one gate node at each end, the
+humans players are free to pick with tunnel they want to go
+through. The bots will use only the tunnels with sky nodes, however.
+
+In racing, if the course has more than one lap, the race must end
+where it starts. The final sky node must have bGateNode and bFinalNode
+set to true. This makes the final node pick the lowest weight in its
+radius as the next node, which would be the start node. The starting
+node must have bGateNode set to true as well. If the track only has
+one lap, you needn't follow the previous steps. But it is recommended
+that you make your track loop. It is possible for the server admin to
+alter the lap count.
+
+Branching in racing is done like normal. You can have two or more sky
+nodes within the link radius with similar weights. The
+randomLinkAdjust can be used to randomize them. You can have gate
+nodes on separate branches.
+
+
+DEBUGGING
+
+Edit or create your SLV2.ini file in your UT/System directory. The
+following are the defaults for the SkyNode and Util sections. If these
+entries aren't there already, create them:
+
+[SLV2.SkyNet]
+bShowNodes=false
+bShowLinks=false
+bDebug=false
+
+
+"bShowNodes" will show a little yellow dot for each sky node, so you
+can see where they are, if set to true.
+
+"bShowLinks" will show the links from a bot's target node as soft
+white lines. Their opacity is a reflection of node weight.
+
+If "bDebug" is set to true, it will output some debugging info for the
+SkyNet, including node weights and bot decision making.
+

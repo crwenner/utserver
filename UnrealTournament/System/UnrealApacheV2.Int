@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=UnrealApacheV2.UnrealApacheMutator,Class=Class,MetaClass=Engine.Mutator,Description="Unreal Apache Ver 2, All Sepcified weapons are replaced by Unreal Apache Helicopters.  The Default weapon to be replaced is the redeemer.")
+
+Object=(Name=UnrealApacheV2.UnrealApacheUMMMI,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="Unreal Apache Helicopters,Specify which weapons to replace with Unreal Apache Helicopters")

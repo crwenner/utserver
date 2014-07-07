@@ -1,0 +1,94 @@
+= Mr. Pants Excessive Overkill for Unreal Tournament =
+
+Author: Cicero
+Date: 4/21/2000
+E-mail: cicero@nethorse.com
+Version: 1.0
+http://www.planetunreal.com/excessive
+
+Description
+-----------
+
+This is a collection of mutators and game types that are exactly what the name implies: Excessive. It replaces the standard UT weapons with overcharged versions, gives all players all weapons, and regenerates players' health and ammo, and removes self-damage. The result is instant and constant mayhem in every game. There is no point in trying to play stealthy and avoid getting fragged, because you WILL die, and you WILL get kills. So enjoy it and take as many people with you as you can!
+
+
+Details
+-------
+
+- Weapons:
+	
+- Impact Hammer:
+Primary: hold down for 5 seconds, and you suicide with a redeemer explosion!
+Secondary: same as before, but a hit always results with an instant kill.
+
+- Double Enforcers (no single enforcer):
+Primary & Secondary: rate of fire and damage greatly increased.
+
+- GES BioRifle:
+Primary: rate of fire and damage increased.
+Secondary: charges much faster, and will spew out a LOT of globs. Meaning very many.
+
+- Shock Rifle:
+Primary & Secondary: rate of fire and damage increased.
+Special Move: explosions are bigger and do more damage, and will trigger other Shock Rifle plasma projectiles in the area. In other words, they will chain react.
+
+- Pulse Gun:
+Primary: rate of fire and damage increased, and now fires 3 plasma spheres.
+Secondary: damage increased, and tip now causes explosions where it strikes for even more damage.
+
+- Ripper:
+Primary: rate of fire and damage increased, and now fires 3 razors. Also, razors no longer stop when they hit a target, but will keep on flying until they max out their time or wall hits.
+Secondary: rate of fire and damage increased, and kickback increased a LOT. 
+
+- Minigun:
+Primary & Secondary: rate of fire and damage increased, and now fires exploding
+bullets for even more damage.
+
+- Flak Cannon:
+Primary: rate of fire and damage increased.
+Secondary: rate of fire increased, and now spawns flak chunks in random directions, which explode on impact.
+
+- Rocket Launcher:
+Primary: rate of fire and damage increased, and rockets travel faster.
+Secondary: rate of fire and damage increased, and grenades explode quicker.
+
+- Sniper Rifle:
+Primary: rate of fire increased, and fires exploding bullets for even more damage.
+Secondary: same (zoom).
+
+- Gameplay:
+
+- All players start with 300 health, which regenerates 5 points every .6 seconds. All health pickups  except Big Keg O' Health are removed from the game.
+
+- All players start with all weapons and ammo, and ammo regenerates every .6 seconds (variable amount depending on weapon). All weapon and ammo pickups are removed from the game.
+
+- Self-damage is completely turned off.
+
+- All players get a Damage Amp every 5 minutes.
+	
+- Headshots are removed.
+
+
+Notes
+-----
+
+Although the weapons and other modifications are included as mutators, it is highly recommended that you play one of the full game types (Excessive DeathMatch, Excessive CTF, etc.) to get all of the mod's features. There are included game types for the six basic UT game types (DeathMatch, Team Deathmatch, CTF, Domination, LMS, and Assault).
+
+If you are a game type author and want an Excessive version of your game, please email me and I can definitely "overkill" your game for you.
+
+Server admins, PLEASE bear in mind that Excessive eats up a LOT of bandwidth, probably 130% - 150% of what a regular server does. If you can host a max of 16 players with regular UT, you can probably do about 12 with Excessive. Setting your MaxClientRate to ~5000 is also highly reccommended.
+
+
+Known Issues
+------------
+
+Because of the huge number of explosions and projectiles flying around, Excessive can be very bandwidth and video card-intensive. Don't expect glass-smooth gameplay unless you're on a high-end system on a fast connection. It is still more than playable on lower-end systems and connections, however. I am always open to suggestions for improving efficiency without losing gameplay.
+
+Please email myself or Mr. Pants (dan@gamespy.com) with any bugs or suggestions.
+
+
+Thanks To
+---------
+
+Mr. Pants for making this kick-ass mod for Quake 3: Arena in the first place, and for supporting my efforts to make a UT version. The whole crew on the Mod Central Mutators forum, without who's help this would not have been possible. NULL and Lickty-Splat at pft.com for hosting my server in their house. Beppo for letting me borrow his browser code. And last but not least, all the cool folks who helped playtest the betas, especially Mouser_Kit and the crew at Intellitools. You all rock!
+
